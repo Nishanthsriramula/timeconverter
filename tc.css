@@ -1,0 +1,37 @@
+
+
+.bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/dynamic-webapps/time-converter-bg.png');
+
+}
+
+.heading {
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.para {
+    color: #ffffff;
+    font-size: 25px;
+}
+
+.input-label {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.form-control {
+    color: #000000;
+    font-size: 20;
+    font-weight: bold;
+}
+
+.sec-convert-para {
+    color: #f5f7fa;
+    font-size: 20px;
+}
+
+.error-msg {
+    color: #f5f7fa;
+    font-size: 20px;
+}

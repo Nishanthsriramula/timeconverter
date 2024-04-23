@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="tc.css"/>
+
+</head>
+
+<body>
+    <div class="bg-container p-4">
+        <h1 class="heading ">Time </br> Converter</h1>
+        <p class="para">Enter hours and minutes values to convert into seconds</p>
+        <div class="mb-3">
+            <label for="hoursInput" class="input-label">Hours *</label>
+            <input type="text" class="form-control" id="hoursInput" />
+        </div>
+        <div class="mb-3">
+            <label for="minutesInput" class="input-label">Minutes *</label>
+            <input type="text" class="form-control" id="minutesInput" />
+        </div>
+        <div>
+            <button class="btn btn-secondary" id="convertBtn" onclick="convertToSec()">Convert to Seconds</button>
+        </div>
+        <div class="mt-4 ">
+            <p id="timeInSeconds" class="sec-convert-para"></p>
+            <p id="errorMsg" class="error-msg"></p>
+
+        </div>
+        <script src="tc.js"></script>
+</body>
+
+</html>
